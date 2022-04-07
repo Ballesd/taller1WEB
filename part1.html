@@ -14,39 +14,48 @@
          <!--Encabezado-->
         <head>
             <center>
-                <img src ="imagenes/procesador.jpg" alt="imagen de la arquitectura" width="100%">
+                <img src ="imagenes/procesador.jpg" alt="imagen de la arquitectura" width="50%">
             </center>
         </head>
+        <p>El procesador es el cerebro del sistema, justamente procesa todo lo que 
+            ocurre en la PC y ejecuta todas las acciones que existen. Cuanto más rápido sea el procesador que tiene 
+            una computadora, más rápidamente se ejecutarán las órdenes que se le den a la máquina. Este componente es 
+            parte del hardware de muchos dispositivos, no solo de tu computadora sino también en otros dispositivos
+            inteligentes, los procesadores suelen tener sus propias características que los representan.</p>
             <!-- Formulario parte 1 -->
-        
         <center><form action="">
-            <label for= "email">
-                <span>email</span>
-                <input type="email" id = "correo" placeholder="Ingrese correo proveedor">
+            <!--Marca del procesador-->
+            <label for="Marca">
+                <span>Marca del procesador</span>
+                <input type="text" id = "marca" placeholder="Marca del procesador">
             </label>
-            <label for="Codigo postal">
-                <span>Codigo postal de origen</span>
-                <input type="postal-code" id = "postal" placeholder="cod postal donde reside">
+            <!--NUCLEOS-->
+            <label for= "Cantidad de nucleos">
+                <span>nucleos</span>
+                <input type="number" id = "nucleo" placeholder="Cantidad de Núcleos">
             </label>
-            <label for="Pais">
+            <!--PAIS DE DONDE PROCEDE EL PROCESADOR-->
+            <label for="País">
                 <span>Pais de origen</span>
-                <input type="country" id = "Origen" placeholder="pais de origen">
+                <input type="country" id = "Origen" placeholder="país de origen">
             </label>
             </form>
         </center> 
         <!-- Formulario parte 2 -->
         <form action="">
-            <center><label for= "modelo">
-                <span>¿Tipo o modelo?</span>
-                <input type="text" id = "modelo" placeholder="referencia">
+            <!--Si es I9 I7 R5 ETC-->
+            <center><label for= "Generación del procesador">
+                <span>Generación del modelo</span>
+                <input type="text" id = "modelo" placeholder="Generación">
             </label>
-            <label for="fecha nacimiento">
-                <span>¿fecha de entrada?</span>
-                <input type="date" id = "fecha de entrada" placeholder="fecha de llegada">
+            <!--Si es multihilado o monohilado-->
+            <label for="Multihilado">
+                <input type="radio" id = "Hilos">
+                <span>Multihilado.   </span>
             </label>
-            <label for="hora de envio">
-                <span>hora de envio</span>
-                <input type="time" id = "hora en al que salio" placeholder="Hora de salida">
+            <label for="procesador">
+                <span>Foto del procesador</span>
+                <input type="file" id = "IDprocesador" placeholder="Foto">
             </label></center>
         </form>         
         <main>
